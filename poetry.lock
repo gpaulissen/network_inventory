@@ -251,17 +251,18 @@ Django = ">=2.2"
 
 [[package]]
 name = "django-htmx"
-version = "1.17.0"
+version = "1.19.0"
 description = "Extensions for using Django with htmx."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "django_htmx-1.17.0-py3-none-any.whl", hash = "sha256:070a37092b88a42cd7af26c1b65f63c4529bae276710fd16137dc934938b44f2"},
-    {file = "django_htmx-1.17.0.tar.gz", hash = "sha256:2ef0d19db41c6152881e782673cd2cd1755a7fd6784f8b4f2279fb18dc03d2c2"},
+    {file = "django_htmx-1.19.0-py3-none-any.whl", hash = "sha256:875a642814e52278c1728842436beda2001847a493ab79fd82da3fb46ead140f"},
+    {file = "django_htmx-1.19.0.tar.gz", hash = "sha256:e7e17304e78e07f96eca0affc3ce1806edfdf3538bb7cb1912452b101f3e627d"},
 ]
 
 [package.dependencies]
-Django = ">=3.2"
+asgiref = ">=3.6"
+django = ">=3.2"
 
 [[package]]
 name = "django-model-utils"
@@ -1181,4 +1182,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "f344af0446f97bf7579917bd881c201d67056a380cda55e9bcbf3a6e6383b2c9"
+content-hash = "6f1950f200a548c79db36a0206ba6e40f56746da95a89a305c7d49ef9c74e9ce"
