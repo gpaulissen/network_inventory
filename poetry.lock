@@ -284,13 +284,13 @@ Django = ">=3.2"
 
 [[package]]
 name = "django-nested-admin"
-version = "4.0.2"
+version = "4.1.1"
 description = "Django admin classes that allow for nested inlines"
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "django-nested-admin-4.0.2.tar.gz", hash = "sha256:79a5ce80b81c41a0f48f778fb556a3721029df48580bfce60a5962ffa2ef2d47"},
-    {file = "django_nested_admin-4.0.2-py3-none-any.whl", hash = "sha256:74d8fc0d0f17862ffcece66d39b8814cb649878b3b6ba8438076145a688ea473"},
+    {file = "django-nested-admin-4.1.1.tar.gz", hash = "sha256:645d63b38d579b034a65e0983f1f8cbb8824c75b4232f8d62a1583fa7a9f568f"},
+    {file = "django_nested_admin-4.1.1-py3-none-any.whl", hash = "sha256:7e72ab7a8ae4c91074f6f709ce38fdf54f9c5f78d19e68772e0f05b83090ec9f"},
 ]
 
 [package.dependencies]
@@ -1186,4 +1186,4 @@ test = ["big-O", "jaraco.functools", "jaraco.itertools", "jaraco.test", "more-it
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "73f072050dd0e1adb66e14a52639d8aef4a5b4ebb80f3db4e2818f3d6944a315"
+content-hash = "f7c1e99b771fc1819356d8fc69e4711d81a0260f99eac123ddd86d52b5d2e995"
